@@ -1,9 +1,14 @@
-import os
+# import os
+#
+# # gives the path of demo.py
+# path = os.path.realpath(__file__)
+#
+# # gives the directory where demo.py
+# # exists
+# dir = os.path.dirname(path)
+# print(dir)
 
-# gives the path of demo.py
-path = os.path.realpath(__file__)
+import app.Main as Main
 
-# gives the directory where demo.py
-# exists
-dir = os.path.dirname(path)
-print(dir)
+url = "dantri.com"
+Main.check_url(url)

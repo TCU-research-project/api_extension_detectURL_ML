@@ -8,7 +8,11 @@
 # dir = os.path.dirname(path)
 # print(dir)
 
-import app.Main as Main
+# import app.Main as Main
+#
+# url = "www.dantri.com"
+# print(url[4:])
 
-url = "dantri.com"
+import app.Main as Main
+url = "https://github.com"
 Main.check_url(url)

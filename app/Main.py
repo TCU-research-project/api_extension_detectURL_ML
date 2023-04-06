@@ -21,10 +21,10 @@ def check_url(url):
     y_rf = clf.predict(X_new)
     if (y_rf[0] == 1):
         print("Website is malicious!!")
-        return "Website is malicious!!"
+        return "malicious"
     else:
         print("Website is safe!!")
-        return "Website is safe!!"
+        return "safe"
 
 # if __name__ == '__main__':
 #     url = "dantri.com"
